@@ -1,3 +1,5 @@
+/*Begin*/
+
 body{
     background-image: url(https://raw.githubusercontent.com/johinsDev/desafios/9c54a7ea70cce45896c579fc1404381625a51101/tercer-nivel/images/bg-mobile.svg); 
     background-repeat: no-repeat;
@@ -5,10 +7,10 @@ body{
     background-color: blueviolet;
 }
 
+/*Main*/
 
 .contenido{
     margin: 2% 5%;
-    
     display: block;
     text-align: center; 
 }
@@ -33,6 +35,14 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    color: white; 
+    background: rgb(186,63,251);
+    background: radial-gradient(circle, rgba(119,31,200,1) 0%, rgba(252,70,217,1) 100%);
+ }
+
+/*Footer*/
+
 footer{
     margin: 2% 5%;
     display: block;;
@@ -56,25 +66,19 @@ footer{
     cursor: pointer;
 }
 
-button:hover{
-   color: white; 
-   background: rgb(186,63,251);
-   background: radial-gradient(circle, rgba(119,31,200,1) 0%, rgba(252,70,217,1) 100%);
-}
-
 @media (min-width: 600px){
-
+    /*Begin*/
     body{
         background-image: url(https://raw.githubusercontent.com/johinsDev/desafios/9c54a7ea70cce45896c579fc1404381625a51101/tercer-nivel/images/bg-desktop.svg); 
         background-repeat: no-repeat;
         background-size: 100%;   
         background-color: blueviolet;
     }
-
+    /*Header*/
     .log{
         width: 50%;
     }
-    
+    /*main*/
     .contenido{
         
         margin-bottom: 0%;
@@ -92,12 +96,9 @@ button:hover{
         text-align: left;
         padding: 5% 3%;
     }
-
+    /*Footer*/
     footer{
         text-align: right;
         margin: 0%;
-        
-
     }
-
 }
